@@ -257,7 +257,7 @@ jobs:
         DATE="$(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M')"
         {
           echo "- **官方源码**: https://github.com/immortalwrt/immortalwrt"
-          echo "- **网关信息**: 192.168.123.2 | **账户**: root | **密码**: password"
+          echo "- **网关信息**: 192.168.2.2 | **账户**: root | **密码**: password"
           echo "- **编译时间**: $DATE"
           echo ""
           echo "### 更新日志："
