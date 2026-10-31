@@ -12,7 +12,7 @@ log() { echo ">>> [$VERSION] $*"; }
 # 基础设置（IP / 主机名）
 # ============================================================
 log "设置默认 IP 与主机名"
-sed -i 's/192.168.1.1/192.168.123.2/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.2.2/g' package/base-files/files/bin/config_generate
 sed -i 's/ImmortalWrt/OpenWrt/g' package/base-files/files/bin/config_generate
 
 # ============================================================
